@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Google Pixel 3",
+    "price": 1009,
+    "img": "/images/google.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S22 Ultra",
+    "price": 1077,
+    "img": "/images/samsung.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Apple iPhone 14 Pro Max",
+    "price": 2150,
+    "img": "/images/apple.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Xiaomi Mi 10",
+    "price": 4510,
+    "img": "/images/xiaomi.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Motorolla xT70",
+    "price": 1099,
+    "img": "/images/motorolla.jpg"
+  }
+]
