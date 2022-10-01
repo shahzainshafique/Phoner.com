@@ -12,7 +12,7 @@ import { FaCheckCircle, FaExclamationTriangle } from "react-icons/fa";
 
 export const CheckoutForm = () => {
   const stripe = useStripe();
-  const [errormsg, seterror] = useState({});
+  const [errormsg, seterror] = useState({ message: "" });
   const [paid, setpaid] = useState(false);
   const [err, seterr] = useState(false);
   const elements = useElements();
