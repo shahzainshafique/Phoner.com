@@ -28,7 +28,7 @@ const Navbar = () => {
           <FaMobile className="mb-2" />
           Phoner
         </a>
-        <ul className="nav navbar cartt">
+        <ul className="nav navbar navbar-right cartt">
           {cartQuantity > 0 && (
             <Button
               onClick={openCart}

@@ -28,13 +28,16 @@ a:hover {
 hr {
   width: 100%;
 }
-
+.cartt {
+  margin-left: 64%;
+}
 @media screen and (max-width: 768px) {
   .bottom {
     font-size: 10px !important;
   }
   .cartt {
-    margin-right: -8rem;
+    margin-left: auto;
+    margin-right: 1rem;
   }
   .maincont {
     display: flex;
