@@ -36,14 +36,14 @@ export const CheckoutForm = () => {
     }
   };
   return (
-    <>
+    <div className="cardform">
       <h4>Pay via Card </h4>
       <div className="form-control">
         <CardElement />
       </div>
       <Button
         onClick={handleSubmit(stripe, elements)}
-        className="w-25 d-flex justify-content-center align-self-center my-4 btn-dark btn-lg"
+        className="w-25 d-flex justify-content-center align-self-center my-4 btn-dark btn-lg butt"
       >
         Buy
       </Button>
@@ -57,6 +57,6 @@ export const CheckoutForm = () => {
           <FaCheckCircle /> Payment Successfull!
         </div>
       ) : null}
-    </>
+    </div>
   );
 };

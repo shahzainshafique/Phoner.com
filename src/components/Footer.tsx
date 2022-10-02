@@ -9,10 +9,10 @@ const Footer = () => {
       </div>
       <div className="bottom">
         <hr />
-        <h3>
-          Made with ❤ by{" "}
+        <h4>
+          Made with <span style={{ color: "red" }}>❤</span> by{" "}
           <a href="linked.com/in/shahzainshafique">Shahzain Shafique</a>
-        </h3>
+        </h4>
       </div>
     </div>
   );

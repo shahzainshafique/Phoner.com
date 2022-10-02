@@ -85,7 +85,7 @@ const Home = () => {
       </div>
       <div className="my-4">
         <h3>Trending today... </h3>
-        <Row md={"auto"} xs={"auto"} lg={"auto"} className="g-3">
+        <Row md={"auto"} xs={"auto"} lg={"auto"} className="g-3 trending">
           {storeItems.slice(0, 3).map((item) => (
             <Col key={item.id}>
               <StoreItem {...item} />

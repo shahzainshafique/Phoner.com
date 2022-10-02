@@ -28,3 +28,35 @@ a:hover {
 hr {
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  .bottom {
+    font-size: 10px !important;
+  }
+  .maincont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel img {
+    height: 200px;
+    object-fit: contain;
+  }
+  .butt {
+    padding: 0.5rem 3rem;
+    font-size: 15px;
+  }
+  .trending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 80vw;
+    margin-left: -4rem;
+  }
+}

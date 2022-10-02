@@ -30,7 +30,7 @@ const Checkout = () => {
       "pi_1Dse262eZvKYlo2CNAdNOxmG_secret_NZZIsaijpKLMNobPMGOZa0D8W",
   };
   return (
-    <div className="d-flex flex-row flex-wrap w-full">
+    <div className="d-flex flex-row flex-wrap w-full maincont">
       <div className="d-flex flex-column w-50 mx-5 justify-content-flex-start">
         <h3 className="mt-5">Please enter your details</h3>
         <div
@@ -49,7 +49,7 @@ const Checkout = () => {
           </label>
           <input type="email" className="form-control w-100" id="usr" />
           <div className="d-flex justify-content-center">
-            <Button className="w-25 d-flex justify-content-center align-self-center my-4 btn-dark">
+            <Button className="w-25 d-flex justify-content-center align-self-center my-4 btn-dark butt">
               Save
             </Button>
           </div>
