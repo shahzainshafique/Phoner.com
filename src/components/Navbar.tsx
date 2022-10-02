@@ -28,7 +28,40 @@ const Navbar = () => {
           <FaMobile className="mb-2" />
           Phoner
         </a>
-
+        <ul className="nav navbar cartt">
+          {cartQuantity > 0 && (
+            <Button
+              onClick={openCart}
+              style={{
+                width: "3rem",
+                height: "3rem",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+              variant="outline-light"
+              className="rounded-circle"
+            >
+              <FaShoppingCart />
+              <div
+                className="rounded-circle bg-danger d-flex justify-content-center ms-4 align-items-center"
+                style={{
+                  color: "white",
+                  padding: "9px",
+                  width: "1rem",
+                  height: "1rem",
+                  position: "absolute",
+                  // bottom: "0",
+                  // right: "0",
+                  top: "0",
+                  transform: "translate(25%, 25%)",
+                }}
+              >
+                {cartQuantity}
+              </div>
+            </Button>
+          )}
+        </ul>
         <button
           className="navbar-toggler"
           type="button"
@@ -66,40 +99,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <ul className="nav navbar navbar-right ">
-          {cartQuantity > 0 && (
-            <Button
-              onClick={openCart}
-              style={{
-                width: "3rem",
-                height: "3rem",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-              variant="outline-light"
-              className="rounded-circle"
-            >
-              <FaShoppingCart />
-              <div
-                className="rounded-circle bg-danger d-flex justify-content-center ms-4 align-items-center"
-                style={{
-                  color: "white",
-                  padding: "9px",
-                  width: "1rem",
-                  height: "1rem",
-                  position: "absolute",
-                  // bottom: "0",
-                  // right: "0",
-                  top: "0",
-                  transform: "translate(25%, 25%)",
-                }}
-              >
-                {cartQuantity}
-              </div>
-            </Button>
-          )}
-        </ul>
       </div>
     </nav>
   );
