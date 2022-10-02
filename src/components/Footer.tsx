@@ -11,7 +11,9 @@ const Footer = () => {
         <hr />
         <h4>
           Made with <span style={{ color: "red" }}>❤</span> by{" "}
-          <a href="linked.com/in/shahzainshafique">Shahzain Shafique</a>
+          <a href="https://www.linkedin.com/in/shahzainshafique/">
+            Shahzain Shafique
+          </a>
         </h4>
       </div>
     </div>
